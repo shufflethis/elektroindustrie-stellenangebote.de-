@@ -1,0 +1,7 @@
+{
+  "name": "ElektroJobs - Karriere in der Elektroindustrie",
+  "description": "Die führende Jobbörse für die Elektroindustrie. Finden Sie Top-Stellenangebote oder qualifizierte Fachkräfte. Optimiert für moderne Stellensuche.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
