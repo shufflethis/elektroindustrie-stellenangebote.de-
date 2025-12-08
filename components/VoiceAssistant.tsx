@@ -22,8 +22,6 @@ const VoiceAssistant: React.FC = () => {
   const nextStartTimeRef = useRef<number>(0);
   const sessionPromiseRef = useRef<Promise<any> | null>(null);
 
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
-
   useEffect(() => {
     // Check permission on mount (optional, mostly for UI state)
     navigator.mediaDevices.getUserMedia({ audio: true })
@@ -41,6 +39,9 @@ const VoiceAssistant: React.FC = () => {
     setIsConnecting(true);
 
     try {
+      // Initialize AI client here to ensure API key is ready and capture any config errors in the try/catch
+      const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+
       // 1. Setup Audio Contexts
       const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
       inputAudioContextRef.current = new AudioContextClass({ sampleRate: 16000 });
@@ -182,7 +183,6 @@ const VoiceAssistant: React.FC = () => {
 
     // Close Gemini session if possible (wrapper doesn't expose explicit close on promise easily, 
     // usually we just let it drift or relies on component unmount to break connection logic)
-    // Note: The specific SDK structure suggests relying on unmounting/disconnecting logic if implemented.
     sessionPromiseRef.current = null;
   };
 
