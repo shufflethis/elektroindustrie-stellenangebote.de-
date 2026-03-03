@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# elektroindustrie-stellenangebote.de - Elektroindustrie Stellenangebote
+
+> elektroindustrie-stellenangebote.de ist ein spezialisiertes Jobportal fuer Elektroindustrie-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Elektroindustrie
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://elektroindustrie-stellenangebote.de
+- Arbeitgeber-Kontakt: https://elektroindustrie-stellenangebote.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://elektroindustrie-stellenangebote.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Elektroindustrie-Stellenangebote
+- Karriere-Ratgeber fuer Elektroindustrie
+- Gehaltsvergleiche und Brancheninformationen
