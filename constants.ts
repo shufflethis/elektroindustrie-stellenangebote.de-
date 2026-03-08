@@ -146,6 +146,17 @@ export const MOCK_JOBS: Job[] = [
   },
   {
     id: '14',
+    title: 'Strategischer Einkäufer (m/w/d) Metall- und Elektroindustrie',
+    company: 'jobtimum GmbH Personalvermittlung',
+    location: 'Bremen',
+    type: 'Vollzeit',
+    description: 'Strategischer Einkäufer (m/w/d) Metall- und Elektroindustrie',
+    tags: ['Wirtschaftsingenieur/in'],
+    postedDate: '2026-02-17',
+    isFeatured: false
+  },
+  {
+    id: '15',
     title: 'Produktionskraft Baugruppenmontage Elektroindustrie (m/w/d)',
     company: 'PERSODY HR-Solutions GmbH',
     location: 'Marklkofen',
@@ -156,7 +167,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '15',
+    id: '16',
     title: 'Montagekräfte Baugruppenmontage Elektroindustrie (m/w/d)',
     company: 'PERSODY HR-Solutions GmbH',
     location: 'Marklkofen',
@@ -167,7 +178,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '16',
+    id: '17',
     title: 'Produktionsmitarbeiter (m/w/d) - Elektroindustrie - Aurich',
     company: 'ERZA GmbH',
     location: 'Aurich, Ostfriesland',
@@ -178,7 +189,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '17',
+    id: '18',
     title: 'Maschinenbediener SMD Elektroindustrie (m/w/d) (m/w/d)',
     company: 'I.K. Hofmann GmbH Niederlassung Erlangen',
     location: 'Heßdorf, Mittelfranken',
@@ -189,7 +200,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '18',
+    id: '19',
     title: 'Lagermitarbeiter (m/w/d) Elektroindustrie',
     company: 'I.K. Hofmann GmbH',
     location: 'Ladenburg',
@@ -200,7 +211,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '19',
+    id: '20',
     title: 'Teamleiter (m/w/d) Elektroindustrie',
     company: 'I.K. Hofmann GmbH',
     location: 'Ladenburg',
@@ -211,7 +222,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '20',
+    id: '21',
     title: 'Elektroinstallateur (m/w/d) Elektroindustrie',
     company: 'I.K. Hofmann GmbH',
     location: 'Ladenburg',
@@ -222,7 +233,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '21',
+    id: '22',
     title: 'Logistikfachkraft (m/w/d) Elektroindustrie',
     company: 'I.K. Hofmann GmbH',
     location: 'Ladenburg',
@@ -233,7 +244,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '22',
+    id: '23',
     title: 'Bilanzbuchhalter (m/w/d) Metall- und Elektroindustrie',
     company: 'jobtimum GmbH Personalvermittlung',
     location: 'Bremen',
@@ -244,7 +255,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '23',
+    id: '24',
     title: 'Produktionshelfer Elektroindustrie (m/w/d)',
     company: 'Becker Personal Solutions',
     location: 'Ahrensburg',
@@ -255,7 +266,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '24',
+    id: '25',
     title: 'Maschinenbediener SMD Elektroindustrie (m/w/d)',
     company: 'I.K. Hofmann GmbH Niederlassung Erlangen',
     location: 'Heßdorf, Mittelfranken',
@@ -263,17 +274,6 @@ export const MOCK_JOBS: Job[] = [
     description: 'Maschinenbediener SMD Elektroindustrie (m/w/d)',
     tags: ['Maschinen- und Anlagenführer/in (ohne Angabe des Schwerpunkts)'],
     postedDate: '2026-01-02',
-    isFeatured: false
-  },
-  {
-    id: '25',
-    title: 'Fachkraft für Lagerlogistik (m/w/d) - Metall-Elektroindustrie',
-    company: 'Office People Personalmanagement GmbH Lübeck',
-    location: 'Lübeck',
-    type: 'Vollzeit',
-    description: 'Fachkraft für Lagerlogistik (m/w/d) - Metall-Elektroindustrie',
-    tags: ['Fachkraft - Lagerlogistik'],
-    postedDate: '2025-11-28',
     isFeatured: false
   }
 ];
