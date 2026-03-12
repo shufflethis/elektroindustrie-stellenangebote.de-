@@ -21,8 +21,8 @@ const Navbar: React.FC<NavbarProps> = ({ setView }) => {
         <div className="flex justify-between h-16">
           <div className="flex items-center cursor-pointer" onClick={() => setView(ViewState.HOME)}>
             <div className="flex-shrink-0 flex items-center text-blue-600">
-              <Zap className="h-8 w-8 mr-2" fill="currentColor" />
-              <span className="font-bold text-xl tracking-tight text-slate-900">
+              <Zap className="h-6 w-6 sm:h-8 sm:w-8 mr-1.5 sm:mr-2" fill="currentColor" />
+              <span className="font-bold text-lg sm:text-xl tracking-tight text-slate-900">
                 ElektroJobs<span className="text-blue-600">.de</span>
               </span>
             </div>

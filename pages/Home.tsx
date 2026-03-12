@@ -28,28 +28,24 @@ const Home: React.FC = () => {
             <h1 className="text-3xl font-bold mb-6">Impressum</h1>
             <div className="prose text-gray-600 bg-white p-8 rounded-xl shadow-sm border border-gray-100">
               <p className="mb-4">
-                <strong>Angaben gemäß § 5 TMG</strong><br />
+                <strong>Angaben gemaess Paragraph 5 TMG</strong><br />
                 Social Media Venture GmbH<br />
-                Industriestraße 1<br />
-                12345 Elektrostadt
+                Schliemannstrasse 23<br />
+                10437 Berlin
               </p>
               <p className="mb-4">
                 <strong>Vertreten durch:</strong><br />
-                Thomas Sander
+                Thomas Sander, Geschaeftsfuehrer
               </p>
               <p className="mb-4">
                 <strong>Kontakt:</strong><br />
-                Telefon: +49 (0) 123 44 55 66<br />
                 E-Mail: info@socialmediaventure.com
               </p>
               <p className="mb-4">
                 <strong>Registereintrag:</strong><br />
                 Eintragung im Handelsregister.<br />
-                Registergericht: Amtsgericht Musterstadt<br />
+                Registergericht: Amtsgericht Charlottenburg<br />
                 Registernummer: HRB 162557 B</p>
-              <p className="text-sm text-gray-400 mt-8">
-                * Dies ist ein Platzhalter für ein rechtssicheres Impressum. Bitte konsultieren Sie Ihren Anwalt.
-              </p>
             </div>
           </div>
         );

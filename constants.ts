@@ -281,15 +281,31 @@ export const MOCK_JOBS: Job[] = [
 export const SEO_FAQS: FAQItem[] = [
   {
     question: "Welche Qualifikationen sind in der Elektroindustrie besonders gefragt?",
-    answer: "In der modernen Elektroindustrie sind besonders Fachkenntnisse in der Automatisierungstechnik (SPS, Robotik), Energietechnik (Erneuerbare Energien, Smart Grids) und Digitalisierung (IoT, Industrie 4.0) gefragt. Ein Abschluss als Elektroingenieur (Bachelor/Master) oder eine Ausbildung als Elektroniker für Betriebstechnik/Automatisierungstechnik bilden die solide Basis. Zunehmend wichtig werden auch Soft Skills wie Projektmanagement und interdisziplinäres Denken."
+    answer: "In der modernen Elektroindustrie sind besonders Fachkenntnisse in der Automatisierungstechnik (SPS, Robotik), Energietechnik (Erneuerbare Energien, Smart Grids) und Digitalisierung (IoT, Industrie 4.0) gefragt. Ein Abschluss als Elektroingenieur (Bachelor/Master) oder eine Ausbildung als Elektroniker fuer Betriebstechnik/Automatisierungstechnik bilden die solide Basis. Zunehmend wichtig werden auch Soft Skills wie Projektmanagement und interdisziplinaeres Denken."
   },
   {
     question: "Wie hoch ist das Gehalt in der Elektrobranche?",
-    answer: "Die Gehälter in der Elektroindustrie gehören zu den höchsten im produzierenden Gewerbe in Deutschland. Einstiegsgehälter für Ingenieure liegen oft zwischen 48.000€ und 55.000€ jährlich. Erfahrene Fachkräfte und Spezialisten können Gehälter von 70.000€ bis über 100.000€ erreichen, abhängig von Unternehmensgröße, Standort und Verantwortung."
+    answer: "Die Gehaelter in der Elektroindustrie gehoeren zu den hoechsten im produzierenden Gewerbe in Deutschland. Einstiegsgehaelter fuer Ingenieure liegen oft zwischen 48.000 Euro und 55.000 Euro jaehrlich. Erfahrene Fachkraefte und Spezialisten koennen Gehaelter von 70.000 Euro bis ueber 100.000 Euro erreichen, abhaengig von Unternehmensgroesse, Standort und Verantwortung."
   },
   {
-    question: "Wie verändert KI die Jobs in der Elektroindustrie?",
-    answer: "Künstliche Intelligenz revolutioniert die Elektroindustrie durch vorausschauende Wartung (Predictive Maintenance), optimierte Netzsteuerung und generative Designprozesse. Für Arbeitnehmer bedeutet dies, dass Datenkompetenz und der Umgang mit KI-Tools zunehmend zu Schlüsselqualifikationen werden, während repetitive Aufgaben automatisiert werden."
+    question: "Wie veraendert KI die Jobs in der Elektroindustrie?",
+    answer: "Kuenstliche Intelligenz revolutioniert die Elektroindustrie durch vorausschauende Wartung (Predictive Maintenance), optimierte Netzsteuerung und generative Designprozesse. Fuer Arbeitnehmer bedeutet dies, dass Datenkompetenz und der Umgang mit KI-Tools zunehmend zu Schluesselqualifikationen werden, waehrend repetitive Aufgaben automatisiert werden."
+  },
+  {
+    question: "Welche Ausbildungsberufe gibt es in der Elektroindustrie?",
+    answer: "Die wichtigsten Ausbildungsberufe sind Elektroniker fuer Betriebstechnik, Elektroniker fuer Automatisierungstechnik, Elektroniker fuer Energie- und Gebaeudetechnik, Mechatroniker und Industrieelektriker. Die Ausbildungsdauer betraegt je nach Beruf 2 bis 3,5 Jahre. Alle Berufe bieten hervorragende Uebernahmechancen und Weiterbildungsmoeglichkeiten zum Meister oder Techniker."
+  },
+  {
+    question: "Wo finde ich die meisten Elektroindustrie-Jobs in Deutschland?",
+    answer: "Die groessten Standorte der Elektroindustrie in Deutschland sind Bayern (Muenchen, Nuernberg, Erlangen), Baden-Wuerttemberg (Stuttgart, Mannheim, Karlsruhe), Nordrhein-Westfalen (Koeln, Duesseldorf, Dortmund) und Sachsen (Dresden, Chemnitz, Leipzig). Besonders das Dreieck Muenchen-Stuttgart-Frankfurt gilt als Hotspot fuer Elektrotechnik-Jobs mit den hoechsten Gehaeltern."
+  },
+  {
+    question: "Was verdient ein Elektroniker fuer Betriebstechnik?",
+    answer: "Ein Elektroniker fuer Betriebstechnik verdient in Deutschland durchschnittlich zwischen 35.000 und 48.000 Euro brutto jaehrlich. Mit Berufserfahrung und Spezialisierung sind Gehaelter bis 55.000 Euro moeglich. Die Tarifgehaelter in der Metall- und Elektroindustrie gehoeren zu den besten in Deutschland und bieten zusaetzlich Weihnachts- und Urlaubsgeld."
+  },
+  {
+    question: "Wie kann ich als Quereinsteiger in die Elektroindustrie wechseln?",
+    answer: "Quereinsteiger koennen ueber Umschulungsprogramme der IHK, berufsbegleitende Weiterbildungen oder betriebliche Qualifizierungsangebote in die Elektroindustrie einsteigen. Besonders gefragt sind Quereinsteiger mit technischem Verstaendnis aus verwandten Branchen wie Maschinenbau oder IT. Viele Unternehmen bieten eigene Traineeprogramme und Einstiegsqualifizierungen an."
   }
 ];
 

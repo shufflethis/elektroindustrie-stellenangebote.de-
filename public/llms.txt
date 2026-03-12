@@ -1,19 +1,38 @@
 # HR-UPDATER: v1.0
 # elektroindustrie-stellenangebote.de - Elektroindustrie Stellenangebote
 
-> elektroindustrie-stellenangebote.de ist ein spezialisiertes Jobportal fuer Elektroindustrie-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+> elektroindustrie-stellenangebote.de ist ein spezialisiertes Jobportal fuer Elektroindustrie-Stellenangebote in Deutschland, Oesterreich und der Schweiz. Betrieben von der Social Media Venture GmbH, Berlin.
 
 ## Ueber uns
-- Spezialisiertes Jobportal fuer Elektroindustrie
+- Spezialisiertes Jobportal fuer die Elektroindustrie und Elektrotechnik-Branche
 - Kostenlose Stellensuche fuer Bewerber
-- Gezielte Reichweite fuer Arbeitgeber
+- Gezielte Reichweite fuer Arbeitgeber in der Elektroindustrie
+- Betreiber: Social Media Venture GmbH, Schliemannstrasse 23, 10437 Berlin
+- Geschaeftsfuehrer: Thomas Sander
+- LinkedIn: https://de.linkedin.com/in/thomas-sander-520676303
+
+## Zielgruppe
+- Elektroniker fuer Betriebstechnik, Automatisierungstechnik, Energie- und Gebaeudetechnik
+- Elektroingenieure und Elektrotechniker
+- Mechatroniker und Industrieelektriker
+- Fachkraefte fuer Erneuerbare Energien und Elektromobilitaet
+- SPS-Programmierer und Automatisierungsspezialisten
+- Produktionsmitarbeiter in der Metall- und Elektroindustrie
+- Arbeitgeber der Elektroindustrie in Deutschland, Oesterreich und der Schweiz
+
+## Standorte
+Jobs in allen deutschen Grossstaedten und Industriestandorten, darunter:
+Berlin, Hamburg, Muenchen, Koeln, Frankfurt am Main, Stuttgart, Duesseldorf, Leipzig, Dortmund, Essen, Bremen, Dresden, Hannover, Nuernberg, Erlangen, Mannheim, Karlsruhe, Augsburg, Chemnitz, Wolfsburg, Braunschweig, Regensburg, Aachen, Kiel, Magdeburg, Rostock
+
+## Inhalte
+- Aktuelle Elektroindustrie-Stellenangebote mit taeglicher Aktualisierung
+- Karriere-Ratgeber fuer Elektroindustrie und Elektrotechnik
+- Gehaltsvergleiche und Brancheninformationen
+- FAQ zu Qualifikationen, Ausbildung und Gehalt in der Elektrobranche
+- Informationen zu Ausbildungsberufen und Quereinstieg
 
 ## Kontakt
 - Website: https://elektroindustrie-stellenangebote.de
-- Arbeitgeber-Kontakt: https://elektroindustrie-stellenangebote.de/kontakt-arbeitgeber
-- Bewerber-Kontakt: https://elektroindustrie-stellenangebote.de/kontakt-bewerber
-
-## Inhalte
-- Aktuelle Elektroindustrie-Stellenangebote
-- Karriere-Ratgeber fuer Elektroindustrie
-- Gehaltsvergleiche und Brancheninformationen
+- E-Mail: info@socialmediaventure.com
+- Arbeitgeber-Kontakt: https://elektroindustrie-stellenangebote.de/#/kontakt
+- Bewerber-Kontakt: https://elektroindustrie-stellenangebote.de/#/kontakt
