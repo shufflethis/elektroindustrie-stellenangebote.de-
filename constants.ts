@@ -3,6 +3,138 @@ import { Job, FAQItem, ArticleSection } from './types';
 export const MOCK_JOBS: Job[] = [
   {
     id: '1',
+    title: 'Maurer (m/w/d)',
+    company: 'Eiffage Infra-Südwest GmbH',
+    location: 'Alzey',
+    type: 'Vollzeit',
+    description: 'Maurer (m/w/d)',
+    tags: [],
+    postedDate: '2026-03-15',
+    isFeatured: true
+  },
+  {
+    id: '2',
+    title: 'Zahnarzt (m/w/d)',
+    company: 'MeinDentist Berlin GmbH',
+    location: 'Potsdam',
+    type: 'Vollzeit',
+    description: 'Zahnarzt (m/w/d)',
+    tags: [],
+    postedDate: '2026-03-15',
+    isFeatured: true
+  },
+  {
+    id: '3',
+    title: 'Zahnarzt (m/w/d)',
+    company: 'MeinDentist Berlin GmbH',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    description: 'Zahnarzt (m/w/d)',
+    tags: [],
+    postedDate: '2026-03-15',
+    isFeatured: true
+  },
+  {
+    id: '4',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Hannover',
+    type: 'Vollzeit',
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    tags: [],
+    postedDate: '2026-03-15',
+    isFeatured: false
+  },
+  {
+    id: '5',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Isernhagen',
+    type: 'Vollzeit',
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    tags: [],
+    postedDate: '2026-03-15',
+    isFeatured: false
+  },
+  {
+    id: '6',
+    title: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    company: 'Medisca GmbH',
+    location: 'Kabelsketal',
+    type: 'Vollzeit',
+    description: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    tags: [],
+    postedDate: '2026-03-15',
+    isFeatured: false
+  },
+  {
+    id: '7',
+    title: 'Werksmonteur (gn) Metall- und Elektroindustrie',
+    company: 'Manpower GmbH & Co KG',
+    location: 'Pulheim',
+    type: 'Vollzeit',
+    description: 'Werksmonteur (gn) Metall- und Elektroindustrie',
+    tags: ['Fachkraft - Metalltechnik - Montagetechnik'],
+    postedDate: '2026-03-11',
+    isFeatured: false
+  },
+  {
+    id: '8',
+    title: 'Werksmonteur (gn) Metall- und Elektroindustrie',
+    company: 'Manpower GmbH & Co KG',
+    location: 'Köln',
+    type: 'Vollzeit',
+    description: 'Werksmonteur (gn) Metall- und Elektroindustrie',
+    tags: ['Helfer/in - Metallbearbeitung'],
+    postedDate: '2026-03-11',
+    isFeatured: false
+  },
+  {
+    id: '9',
+    title: 'Werksmonteur (gn) Metall- und Elektroindustrie',
+    company: 'Manpower GmbH & Co KG',
+    location: 'Frechen',
+    type: 'Vollzeit',
+    description: 'Werksmonteur (gn) Metall- und Elektroindustrie',
+    tags: ['Maschinen- und Anlagenführer/in - Metall-, Kunststofftechnik'],
+    postedDate: '2026-03-11',
+    isFeatured: false
+  },
+  {
+    id: '10',
+    title: 'Operativer Einkäufer (m/w/d) Metall- und Elektroindustrie',
+    company: 'jobtimum GmbH Personalvermittlung',
+    location: 'Hamburg',
+    type: 'Vollzeit',
+    description: 'Operativer Einkäufer (m/w/d) Metall- und Elektroindustrie',
+    tags: ['Fachwirt/in - Einkauf/Bachelor Professional in Procurement'],
+    postedDate: '2026-03-11',
+    isFeatured: false
+  },
+  {
+    id: '11',
+    title: 'Operativer Einkäufer (m/w/d) Metall- und Elektroindustrie',
+    company: 'jobtimum GmbH Personalvermittlung',
+    location: 'Bremen',
+    type: 'Vollzeit',
+    description: 'Operativer Einkäufer (m/w/d) Metall- und Elektroindustrie',
+    tags: ['Wirtschaftsingenieur/in'],
+    postedDate: '2026-03-10',
+    isFeatured: false
+  },
+  {
+    id: '12',
+    title: 'Produktionsmitarbeiter (m/w/d) – Metall- & Elektroindustrie',
+    company: 'Jobbox Personal UG (haftungsbeschränkt)',
+    location: 'Montabaur',
+    type: 'Vollzeit',
+    description: 'Produktionsmitarbeiter (m/w/d) – Metall- & Elektroindustrie',
+    tags: ['Helfer/in - Elektro'],
+    postedDate: '2026-03-03',
+    isFeatured: false
+  },
+  {
+    id: '13',
     title: 'Produktionsmitarbeiter (m/w/d) – Metall- & Elektroindustrie',
     company: 'Jobbox Personal UG (haftungsbeschränkt)',
     location: 'Bad Camberg',
@@ -10,10 +142,10 @@ export const MOCK_JOBS: Job[] = [
     description: 'Produktionsmitarbeiter (m/w/d) – Metall- & Elektroindustrie',
     tags: ['Helfer/in - Elektro'],
     postedDate: '2026-03-03',
-    isFeatured: true
+    isFeatured: false
   },
   {
-    id: '2',
+    id: '14',
     title: 'Montagekräfte Baugruppenmontage Elektroindustrie (m/w/d)',
     company: 'PERSODY HR-Solutions GmbH',
     location: 'Eching, Niederbayern',
@@ -21,10 +153,10 @@ export const MOCK_JOBS: Job[] = [
     description: 'Montagekräfte Baugruppenmontage Elektroindustrie (m/w/d)',
     tags: ['Helfer/in - Elektro'],
     postedDate: '2026-03-03',
-    isFeatured: true
+    isFeatured: false
   },
   {
-    id: '3',
+    id: '15',
     title: 'Helfer Elektroindustrie (m/w/d)',
     company: 'I.K. Hofmann GmbH Hofmann Chemnitz',
     location: 'Gornsdorf',
@@ -32,10 +164,10 @@ export const MOCK_JOBS: Job[] = [
     description: 'Helfer Elektroindustrie (m/w/d)',
     tags: ['Helfer/in - Metallbearbeitung'],
     postedDate: '2026-03-02',
-    isFeatured: true
+    isFeatured: false
   },
   {
-    id: '4',
+    id: '16',
     title: 'Helfer (m/w/d) Metall- und Elektroindustrie',
     company: 'KÖTTER Personal Service SE & Co. KG- NL Duisburg',
     location: 'Krefeld',
@@ -46,7 +178,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '5',
+    id: '17',
     title: 'Löter SMD Bauteilen Elektroindustrie (m/w/d)',
     company: 'I.K. Hofmann GmbH Niederlassung Forchheim',
     location: 'Erlangen',
@@ -57,7 +189,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '6',
+    id: '18',
     title: 'Produktionshelfer m/w/d - Elektroindustrie - Bouszahlung',
     company: 'PerZukunft Arbeitsvermittlung GmbH&Co.KG',
     location: 'Berlin',
@@ -68,7 +200,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '7',
+    id: '19',
     title: 'Produktionsmitarbeiter Elektroindustrie (m/w/d)',
     company: 'I. K. Hofmann GmbH Hofmann Neumarkt',
     location: 'Neumarkt in der Oberpfalz',
@@ -79,7 +211,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '8',
+    id: '20',
     title: 'Produktionsmitarbeiter Elektroindustrie (m/w/d)',
     company: 'I. K. Hofmann GmbH Hofmann Neumarkt',
     location: 'Mühlhausen, Oberpfalz',
@@ -90,7 +222,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '9',
+    id: '21',
     title: 'Maschineneinsteller Elektroindustrie (m/w/d)',
     company: 'I. K. Hofmann GmbH Hofmann Neumarkt',
     location: 'Velburg',
@@ -101,7 +233,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '10',
+    id: '22',
     title: 'Maschineneinsteller als Linienführer Elektroindustrie (m/w/d)',
     company: 'I. K. Hofmann GmbH Hofmann Neumarkt',
     location: 'Velburg',
@@ -112,7 +244,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '11',
+    id: '23',
     title: 'Montagemitarbeiter in Neumarkt Elektroindustrie (m/w/d)',
     company: 'I. K. Hofmann GmbH Hofmann Neumarkt',
     location: 'Mühlhausen, Oberpfalz',
@@ -123,7 +255,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '12',
+    id: '24',
     title: 'Produktionshelfer in der Montage Elektroindustrie (m/w/d)',
     company: 'I. K. Hofmann GmbH Hofmann Neumarkt',
     location: 'Mühlhausen, Oberpfalz',
@@ -134,7 +266,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '13',
+    id: '25',
     title: 'Controller (m/w/d) Metall- und Elektroindustrie',
     company: 'jobtimum GmbH',
     location: 'Bremen',
@@ -142,138 +274,6 @@ export const MOCK_JOBS: Job[] = [
     description: 'Controller (m/w/d) Metall- und Elektroindustrie',
     tags: ['Controller/in'],
     postedDate: '2026-02-23',
-    isFeatured: false
-  },
-  {
-    id: '14',
-    title: 'Strategischer Einkäufer (m/w/d) Metall- und Elektroindustrie',
-    company: 'jobtimum GmbH Personalvermittlung',
-    location: 'Bremen',
-    type: 'Vollzeit',
-    description: 'Strategischer Einkäufer (m/w/d) Metall- und Elektroindustrie',
-    tags: ['Wirtschaftsingenieur/in'],
-    postedDate: '2026-02-17',
-    isFeatured: false
-  },
-  {
-    id: '15',
-    title: 'Produktionskraft Baugruppenmontage Elektroindustrie (m/w/d)',
-    company: 'PERSODY HR-Solutions GmbH',
-    location: 'Marklkofen',
-    type: 'Vollzeit',
-    description: 'Produktionskraft Baugruppenmontage Elektroindustrie (m/w/d)',
-    tags: ['Helfer/in - Elektro'],
-    postedDate: '2026-02-12',
-    isFeatured: false
-  },
-  {
-    id: '16',
-    title: 'Montagekräfte Baugruppenmontage Elektroindustrie (m/w/d)',
-    company: 'PERSODY HR-Solutions GmbH',
-    location: 'Marklkofen',
-    type: 'Vollzeit',
-    description: 'Montagekräfte Baugruppenmontage Elektroindustrie (m/w/d)',
-    tags: ['Helfer/in - Elektro'],
-    postedDate: '2026-02-09',
-    isFeatured: false
-  },
-  {
-    id: '17',
-    title: 'Produktionsmitarbeiter (m/w/d) - Elektroindustrie - Aurich',
-    company: 'ERZA GmbH',
-    location: 'Aurich, Ostfriesland',
-    type: 'Vollzeit',
-    description: 'Produktionsmitarbeiter (m/w/d) - Elektroindustrie - Aurich',
-    tags: ['Helfer/in - Elektro'],
-    postedDate: '2026-02-09',
-    isFeatured: false
-  },
-  {
-    id: '18',
-    title: 'Maschinenbediener SMD Elektroindustrie (m/w/d) (m/w/d)',
-    company: 'I.K. Hofmann GmbH Niederlassung Erlangen',
-    location: 'Heßdorf, Mittelfranken',
-    type: 'Vollzeit',
-    description: 'Maschinenbediener SMD Elektroindustrie (m/w/d) (m/w/d)',
-    tags: ['Maschinen- und Anlagenführer/in (ohne Angabe des Schwerpunkts)'],
-    postedDate: '2026-02-06',
-    isFeatured: false
-  },
-  {
-    id: '19',
-    title: 'Lagermitarbeiter (m/w/d) Elektroindustrie',
-    company: 'I.K. Hofmann GmbH',
-    location: 'Ladenburg',
-    type: 'Vollzeit',
-    description: 'Lagermitarbeiter (m/w/d) Elektroindustrie',
-    tags: ['Fachkraft - Lagerlogistik'],
-    postedDate: '2026-02-05',
-    isFeatured: false
-  },
-  {
-    id: '20',
-    title: 'Teamleiter (m/w/d) Elektroindustrie',
-    company: 'I.K. Hofmann GmbH',
-    location: 'Ladenburg',
-    type: 'Vollzeit',
-    description: 'Teamleiter (m/w/d) Elektroindustrie',
-    tags: ['Gruppen-, Teamleiter/in'],
-    postedDate: '2026-02-05',
-    isFeatured: false
-  },
-  {
-    id: '21',
-    title: 'Elektroinstallateur (m/w/d) Elektroindustrie',
-    company: 'I.K. Hofmann GmbH',
-    location: 'Ladenburg',
-    type: 'Vollzeit',
-    description: 'Elektroinstallateur (m/w/d) Elektroindustrie',
-    tags: ['Elektroinstallateur/in'],
-    postedDate: '2026-02-05',
-    isFeatured: false
-  },
-  {
-    id: '22',
-    title: 'Logistikfachkraft (m/w/d) Elektroindustrie',
-    company: 'I.K. Hofmann GmbH',
-    location: 'Ladenburg',
-    type: 'Vollzeit',
-    description: 'Logistikfachkraft (m/w/d) Elektroindustrie',
-    tags: ['Fachkraft - Lagerlogistik'],
-    postedDate: '2026-02-05',
-    isFeatured: false
-  },
-  {
-    id: '23',
-    title: 'Bilanzbuchhalter (m/w/d) Metall- und Elektroindustrie',
-    company: 'jobtimum GmbH Personalvermittlung',
-    location: 'Bremen',
-    type: 'Vollzeit',
-    description: 'Bilanzbuchhalter (m/w/d) Metall- und Elektroindustrie',
-    tags: ['Bilanzbuchhalter/in/Bachelor Professional in Bilanzbuchhaltung'],
-    postedDate: '2026-02-03',
-    isFeatured: false
-  },
-  {
-    id: '24',
-    title: 'Produktionshelfer Elektroindustrie (m/w/d)',
-    company: 'Becker Personal Solutions',
-    location: 'Ahrensburg',
-    type: 'Vollzeit',
-    description: 'Produktionshelfer Elektroindustrie (m/w/d)',
-    tags: ['Helfer/in - Elektro'],
-    postedDate: '2026-01-09',
-    isFeatured: false
-  },
-  {
-    id: '25',
-    title: 'Maschinenbediener SMD Elektroindustrie (m/w/d)',
-    company: 'I.K. Hofmann GmbH Niederlassung Erlangen',
-    location: 'Heßdorf, Mittelfranken',
-    type: 'Vollzeit',
-    description: 'Maschinenbediener SMD Elektroindustrie (m/w/d)',
-    tags: ['Maschinen- und Anlagenführer/in (ohne Angabe des Schwerpunkts)'],
-    postedDate: '2026-01-02',
     isFeatured: false
   }
 ];
