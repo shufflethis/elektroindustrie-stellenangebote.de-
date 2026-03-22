@@ -3,6 +3,72 @@ import { Job, FAQItem, ArticleSection } from './types';
 export const MOCK_JOBS: Job[] = [
   {
     id: '1',
+    title: 'Versand- & Lagermitarbeiter (m/w/d) als Shipping & Receiving Clerk',
+    company: 'Elevate Aircraft Seating GmbH',
+    location: 'Kaiserslautern',
+    type: 'Vollzeit',
+    description: 'Versand- & Lagermitarbeiter (m/w/d) als Shipping & Receiving Clerk',
+    tags: [],
+    postedDate: '2026-03-22',
+    isFeatured: true
+  },
+  {
+    id: '2',
+    title: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
+    company: 'Serviscope AG',
+    location: 'Köln',
+    type: 'Vollzeit',
+    description: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
+    tags: [],
+    postedDate: '2026-03-22',
+    isFeatured: true
+  },
+  {
+    id: '3',
+    title: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
+    company: 'Serviscope AG',
+    location: 'Troisdorf',
+    type: 'Vollzeit',
+    description: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
+    tags: [],
+    postedDate: '2026-03-22',
+    isFeatured: true
+  },
+  {
+    id: '4',
+    title: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
+    company: 'Scheidt & Bachmann Signalling Systems GmbH',
+    location: 'Düsseldorf',
+    type: 'Vollzeit',
+    description: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
+    tags: [],
+    postedDate: '2026-03-22',
+    isFeatured: false
+  },
+  {
+    id: '5',
+    title: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
+    company: 'Scheidt & Bachmann Signalling Systems GmbH',
+    location: 'Mönchengladbach',
+    type: 'Vollzeit',
+    description: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
+    tags: [],
+    postedDate: '2026-03-22',
+    isFeatured: false
+  },
+  {
+    id: '6',
+    title: 'Sachbearbeitung Umsatzsteuer und Kommunalabgaben (m/w/d)',
+    company: 'Gemeinde HudeSofort-Bewerbung',
+    location: 'Hude (Oldb)',
+    type: 'Vollzeit',
+    description: 'Sachbearbeitung Umsatzsteuer und Kommunalabgaben (m/w/d)',
+    tags: [],
+    postedDate: '2026-03-22',
+    isFeatured: false
+  },
+  {
+    id: '7',
     title: 'Maurer (m/w/d)',
     company: 'Eiffage Infra-Südwest GmbH',
     location: 'Alzey',
@@ -10,10 +76,10 @@ export const MOCK_JOBS: Job[] = [
     description: 'Maurer (m/w/d)',
     tags: [],
     postedDate: '2026-03-15',
-    isFeatured: true
+    isFeatured: false
   },
   {
-    id: '2',
+    id: '8',
     title: 'Zahnarzt (m/w/d)',
     company: 'MeinDentist Berlin GmbH',
     location: 'Potsdam',
@@ -21,10 +87,10 @@ export const MOCK_JOBS: Job[] = [
     description: 'Zahnarzt (m/w/d)',
     tags: [],
     postedDate: '2026-03-15',
-    isFeatured: true
+    isFeatured: false
   },
   {
-    id: '3',
+    id: '9',
     title: 'Zahnarzt (m/w/d)',
     company: 'MeinDentist Berlin GmbH',
     location: 'Berlin',
@@ -32,10 +98,10 @@ export const MOCK_JOBS: Job[] = [
     description: 'Zahnarzt (m/w/d)',
     tags: [],
     postedDate: '2026-03-15',
-    isFeatured: true
+    isFeatured: false
   },
   {
-    id: '4',
+    id: '10',
     title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
     company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
     location: 'Hannover',
@@ -46,7 +112,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '5',
+    id: '11',
     title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
     company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
     location: 'Isernhagen',
@@ -57,7 +123,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '6',
+    id: '12',
     title: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
     company: 'Medisca GmbH',
     location: 'Kabelsketal',
@@ -68,7 +134,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '7',
+    id: '13',
     title: 'Werksmonteur (gn) Metall- und Elektroindustrie',
     company: 'Manpower GmbH & Co KG',
     location: 'Pulheim',
@@ -79,7 +145,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '8',
+    id: '14',
     title: 'Werksmonteur (gn) Metall- und Elektroindustrie',
     company: 'Manpower GmbH & Co KG',
     location: 'Köln',
@@ -90,7 +156,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '9',
+    id: '15',
     title: 'Werksmonteur (gn) Metall- und Elektroindustrie',
     company: 'Manpower GmbH & Co KG',
     location: 'Frechen',
@@ -101,7 +167,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '10',
+    id: '16',
     title: 'Operativer Einkäufer (m/w/d) Metall- und Elektroindustrie',
     company: 'jobtimum GmbH Personalvermittlung',
     location: 'Hamburg',
@@ -112,7 +178,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '11',
+    id: '17',
     title: 'Operativer Einkäufer (m/w/d) Metall- und Elektroindustrie',
     company: 'jobtimum GmbH Personalvermittlung',
     location: 'Bremen',
@@ -123,7 +189,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '12',
+    id: '18',
     title: 'Produktionsmitarbeiter (m/w/d) – Metall- & Elektroindustrie',
     company: 'Jobbox Personal UG (haftungsbeschränkt)',
     location: 'Montabaur',
@@ -134,7 +200,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '13',
+    id: '19',
     title: 'Produktionsmitarbeiter (m/w/d) – Metall- & Elektroindustrie',
     company: 'Jobbox Personal UG (haftungsbeschränkt)',
     location: 'Bad Camberg',
@@ -145,7 +211,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '14',
+    id: '20',
     title: 'Montagekräfte Baugruppenmontage Elektroindustrie (m/w/d)',
     company: 'PERSODY HR-Solutions GmbH',
     location: 'Eching, Niederbayern',
@@ -156,7 +222,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '15',
+    id: '21',
     title: 'Helfer Elektroindustrie (m/w/d)',
     company: 'I.K. Hofmann GmbH Hofmann Chemnitz',
     location: 'Gornsdorf',
@@ -167,7 +233,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '16',
+    id: '22',
     title: 'Helfer (m/w/d) Metall- und Elektroindustrie',
     company: 'KÖTTER Personal Service SE & Co. KG- NL Duisburg',
     location: 'Krefeld',
@@ -178,7 +244,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '17',
+    id: '23',
     title: 'Löter SMD Bauteilen Elektroindustrie (m/w/d)',
     company: 'I.K. Hofmann GmbH Niederlassung Forchheim',
     location: 'Erlangen',
@@ -189,7 +255,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '18',
+    id: '24',
     title: 'Produktionshelfer m/w/d - Elektroindustrie - Bouszahlung',
     company: 'PerZukunft Arbeitsvermittlung GmbH&Co.KG',
     location: 'Berlin',
@@ -200,7 +266,7 @@ export const MOCK_JOBS: Job[] = [
     isFeatured: false
   },
   {
-    id: '19',
+    id: '25',
     title: 'Produktionsmitarbeiter Elektroindustrie (m/w/d)',
     company: 'I. K. Hofmann GmbH Hofmann Neumarkt',
     location: 'Neumarkt in der Oberpfalz',
@@ -208,72 +274,6 @@ export const MOCK_JOBS: Job[] = [
     description: 'Produktionsmitarbeiter Elektroindustrie (m/w/d)',
     tags: ['Helfer/in - Elektro'],
     postedDate: '2026-02-24',
-    isFeatured: false
-  },
-  {
-    id: '20',
-    title: 'Produktionsmitarbeiter Elektroindustrie (m/w/d)',
-    company: 'I. K. Hofmann GmbH Hofmann Neumarkt',
-    location: 'Mühlhausen, Oberpfalz',
-    type: 'Vollzeit',
-    description: 'Produktionsmitarbeiter Elektroindustrie (m/w/d)',
-    tags: ['Helfer/in - Elektro'],
-    postedDate: '2026-02-24',
-    isFeatured: false
-  },
-  {
-    id: '21',
-    title: 'Maschineneinsteller Elektroindustrie (m/w/d)',
-    company: 'I. K. Hofmann GmbH Hofmann Neumarkt',
-    location: 'Velburg',
-    type: 'Vollzeit',
-    description: 'Maschineneinsteller Elektroindustrie (m/w/d)',
-    tags: ['Maschinen- und Anlagenführer/in (ohne Angabe des Schwerpunkts)'],
-    postedDate: '2026-02-24',
-    isFeatured: false
-  },
-  {
-    id: '22',
-    title: 'Maschineneinsteller als Linienführer Elektroindustrie (m/w/d)',
-    company: 'I. K. Hofmann GmbH Hofmann Neumarkt',
-    location: 'Velburg',
-    type: 'Vollzeit',
-    description: 'Maschineneinsteller als Linienführer Elektroindustrie (m/w/d)',
-    tags: ['Maschineneinrichter/in (allgemein)'],
-    postedDate: '2026-02-24',
-    isFeatured: false
-  },
-  {
-    id: '23',
-    title: 'Montagemitarbeiter in Neumarkt Elektroindustrie (m/w/d)',
-    company: 'I. K. Hofmann GmbH Hofmann Neumarkt',
-    location: 'Mühlhausen, Oberpfalz',
-    type: 'Vollzeit',
-    description: 'Montagemitarbeiter in Neumarkt Elektroindustrie (m/w/d)',
-    tags: ['Helfer/in - Elektro'],
-    postedDate: '2026-02-24',
-    isFeatured: false
-  },
-  {
-    id: '24',
-    title: 'Produktionshelfer in der Montage Elektroindustrie (m/w/d)',
-    company: 'I. K. Hofmann GmbH Hofmann Neumarkt',
-    location: 'Mühlhausen, Oberpfalz',
-    type: 'Vollzeit',
-    description: 'Produktionshelfer in der Montage Elektroindustrie (m/w/d)',
-    tags: ['Helfer/in - Elektro'],
-    postedDate: '2026-02-24',
-    isFeatured: false
-  },
-  {
-    id: '25',
-    title: 'Controller (m/w/d) Metall- und Elektroindustrie',
-    company: 'jobtimum GmbH',
-    location: 'Bremen',
-    type: 'Vollzeit',
-    description: 'Controller (m/w/d) Metall- und Elektroindustrie',
-    tags: ['Controller/in'],
-    postedDate: '2026-02-23',
     isFeatured: false
   }
 ];
